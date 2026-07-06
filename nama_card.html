@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>شركة نماء الغربية العقارية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-gold: #B48942;
+            --secondary-gold: #C9AA59;
+            --dark-bg: #1a1a1a;
+            --black: #000000;
+            --white: #ffffff;
+        }
+        body {
+            margin: 0;
+            font-family: 'Cairo', sans-serif;
+            background: linear-gradient(135deg, var(--black), #2c2c2c);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: var(--white);
+            width: 420px;
+            max-width: 94%;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+        .header {
+            padding: 40px;
+            text-align: center;
+            background: linear-gradient(135deg, var(--black), #1a1a1a);
+            color: var(--white);
+            border-bottom: 4px solid var(--primary-gold);
+        }
+        .logo {
+            width: 150px;
+            filter: drop-shadow(0 0 5px rgba(180, 137, 66, 0.3));
+        }
+        .header h2 {
+            margin: 15px 0 5px;
+            color: var(--secondary-gold);
+            font-size: 22px;
+        }
+        .header p {
+            margin: 0;
+            color: #ccc;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        .content {
+            padding: 25px;
+        }
+        .name {
+            text-align: center;
+            color: var(--black);
+            font-size: 28px;
+            font-weight: 800;
+            margin-bottom: 5px;
+        }
+        .role {
+            text-align: center;
+            color: var(--primary-gold);
+            margin-bottom: 25px;
+            font-weight: 600;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--white);
+            padding: 15px;
+            border-radius: 14px;
+            margin: 12px 0;
+            font-weight: 700;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .call { background: var(--black); border: 1px solid var(--primary-gold); color: var(--primary-gold); }
+        .wa { background: #25D366; }
+        .web { background: linear-gradient(135deg, var(--primary-gold), var(--secondary-gold)); }
+        .mail { background: #333; }
+        .vcf { background: #1565c0; }
+        
+        .footer {
+            text-align: center;
+            padding: 18px;
+            background: #f8f8f8;
+            color: #888;
+            font-size: 13px;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <!-- استبدل logo.svg بمسار الشعار الخاص بك -->
+            <img src="logo.svg" class="logo" alt="Logo">
+            <h2>شركة نماء الغربية العقارية</h2>
+            <p>NAMA AL-GHARBIA REAL ESTATE</p>
+        </div>
+        <div class="content">
+            <div class="name">الشريف علي آل غالي</div>
+            <div class="role">مسؤول التواصل</div>
+            
+            <a class="btn call" href="tel:+966555522081">
+                <i class="fa-solid fa-phone"></i> اتصل الآن
+            </a>
+            <a class="btn wa" href="https://wa.me/966555522081">
+                <i class="fa-brands fa-whatsapp"></i> واتساب
+            </a>
+            <a class="btn web" target="_blank" href="https://www.namaalgharbia.com/">
+                <i class="fa-solid fa-globe"></i> الموقع الإلكتروني
+            </a>
+            <a class="btn mail" href="mailto:info@namaalgharbia.com">
+                <i class="fa-solid fa-envelope"></i> info@namaalgharbia.com
+            </a>
+            <a class="btn vcf" href="contact.vcf">
+                <i class="fa-solid fa-address-card"></i> حفظ جهة الاتصال
+            </a>
+        </div>
+        <div class="footer">
+            © 2026 شركة نماء الغربية العقارية
+        </div>
+    </div>
+</body>
+</html>
